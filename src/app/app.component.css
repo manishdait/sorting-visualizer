@@ -1,0 +1,221 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px 20px;
+    background-color: rgb(12, 14, 34);
+}
+
+
+.navbar h1{
+    color: white;
+    font-size: 30px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.btn{
+    background-color: rgb(255, 153, 0);
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+.btn:disabled{
+    background-color: rgb(146, 146, 146);
+    color: black;
+}
+
+.range-control{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+input{
+    cursor: pointer;
+}
+
+.range-control label{
+    color: white;
+    font-size: 18px;
+}
+
+.gap{
+    gap: 10px;
+}
+
+.dropdown-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.drop-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(12, 14, 34);
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.option{
+    position: fixed;
+    margin-top: 2px;
+    min-width: 150px;
+    top: 85px;
+    list-style-type: none;
+    transition: all 0.5s linear;
+    display: none;
+}
+
+.option li{
+    background-color: rgb(12, 14, 34);
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.option li:hover{
+    background-color: rgba(20, 118, 209, 0.993);
+}
+
+.drop-down:hover{
+    background-color: rgba(20, 118, 209, 0.993);
+}
+
+
+
+
+.clicked{
+    display: block !important;
+    transition: all 0.5s linear;
+}
+
+.anime{
+    transform: rotate(180deg);
+    transition: all 0.2s linear;
+}
+
+i{
+    transition: all 0.2s linear;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.banner p{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(12, 60, 114);
+    padding: 10px 20px;
+}
+
+.details{
+    font-size: 1.7vw;
+    margin-top: 120px;
+}
+
+@media screen and (max-width:1010px) {
+    .btn{
+        font-size: 15px;
+    }
+
+    .range-control input{
+        width: 90px;
+    }
+
+    .range-control label{
+        font-size: 15px;
+    }
+
+    .drop-down{
+        font-size: 15px;
+    }
+
+    .option li{
+        font-size: 15px;
+    }
+
+    .banner p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:864px) {
+    .option{
+        top: 130px;
+    }
+}
+
+@media screen and (max-width:610px) {
+    .navbar h1{
+        font-size: 20px;
+    }
+
+    .btn{
+        font-size: 12px;
+    }
+
+    .range-control label{
+        font-size: 12px;
+    }
+
+    .drop-down{
+        font-size: 12px;
+    }
+
+    .option li{
+        font-size: 12px;
+    }
+    .option{
+        top: 120px;
+    }
+
+    .range-control input{
+        width: 60px;
+    }
+
+    .banner p{
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width:512px){
+    .option{
+        top: 160px;
+    }
+}

@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bar{
+    background-color: #ff339962;
+    width: 110px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 1vw;
+    color: white;
+    transition: height 0.1s ease-in;
+}
+
+.indx{
+    color: rgb(14, 13, 13);
+    min-height: 100%;
+    margin-top: 20px;
+    font-size: 1vw;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+}

@@ -1,0 +1,15 @@
+.array{
+    max-width: 80vw;
+    height: max-content;
+    height: 461px;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2px;
+}
+
+
+
+
+
