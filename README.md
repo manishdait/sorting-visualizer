@@ -18,4 +18,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 <img src="images/img1.png"> <br/>
 <img src="images/img2.png"> <br/>
-<img src="images/img4.png"> <br/>
+<img src="images/img3.png"> <br/>
