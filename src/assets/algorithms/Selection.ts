@@ -1,4 +1,4 @@
-import { playFind, playSucess, playSwap } from "../../app/array/Sound";
+import { playFind, playSucess, playSwap } from "../audio/Sound";
 import { wait } from "../../app/array/Timmer";
 
 export class Selection{

@@ -1,4 +1,4 @@
-import { playSucess, playSwap } from "src/app/array/Sound";
+import { playSucess, playSwap } from "src/assets/audio/Sound";
 import { wait } from "src/app/array/Timmer";
 
 export class Merge{
