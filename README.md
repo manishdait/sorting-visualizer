@@ -1,5 +1,5 @@
 <pre>
-  <img src="images/icon.png"> <h1>Sorting Visualizer</h1>
+   <h1><img src="images/icon.png">Sorting Visualizer</h1>
 </pre>
 
 # SortingVisualizer
