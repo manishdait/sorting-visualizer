@@ -35,5 +35,20 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~4.8.2"
-  }
+  },
+  "description": "<pre>  <img src=\"images/icon.png\">  </pre>",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManishDait/Sorting-Visualizer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManishDait/Sorting-Visualizer/issues"
+  },
+  "homepage": "https://github.com/ManishDait/Sorting-Visualizer#readme"
 }
