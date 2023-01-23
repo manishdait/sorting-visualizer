@@ -1,5 +1,5 @@
 <pre>
-  <img src="images/icon.png"> Sorting Visualizer
+  <img src="images/icon.png"> <h1>Sorting Visualizer</h1>
 </pre>
 
 # SortingVisualizer
@@ -24,7 +24,7 @@ Clone this repository and run
 ng build
 ```
 
-The build will result in a single `index.html` and other .js  file that is made available in the `docs` directory.
+The build will result in a single `index.html` and other `.js`  file that is made available in the `docs` directory.
 
 
 ## Running the application
