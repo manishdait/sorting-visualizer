@@ -1,6 +1,5 @@
-<pre>
+
  <img src="images/icon.png"> 
-</pre>
 
 # SortingVisualizer
 
