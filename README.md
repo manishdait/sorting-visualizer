@@ -1,5 +1,5 @@
 <pre>
-   <h1 style="display: flex; align-item: center; justify-content: center;"><img src="images/icon.png"> Sorting Visualizer</h1>
+   <h1 style="display: flex; align-item: center; justify-content: center; text-aling: center"><img src="images/icon.png"> Sorting Visualizer</h1>
 </pre>
 
 # SortingVisualizer
