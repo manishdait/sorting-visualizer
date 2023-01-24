@@ -3,7 +3,7 @@
 
 # SortingVisualizer
 
-This is a simple Angular project help to visualize various sorting Algorithm.
+This is a simple Angular project which help to visualize various sorting Algorithm.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
 
@@ -19,6 +19,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Clone this repository and run
 
+```
+npm install
+```
 ```
 ng build
 ```
