@@ -73,7 +73,7 @@ export class Merge{
             }
 
             document.getElementById(i.toString())!.style.backgroundColor = '#0099ff';
-            document.getElementById(j.toString())!.style.backgroundColor = '#0099ff';
+            document.getElementById(j.toString())!.style.backgroundColor = '#0099ffb4';
         }
 
         await wait();
@@ -160,7 +160,7 @@ export class Merge{
                     else{
                         document.getElementById('indx'+(j))!.innerHTML = 'j'
                     }
-                    document.getElementById(j.toString())!.style.backgroundColor = '#0099ff';
+                    document.getElementById(j.toString())!.style.backgroundColor = '#0099ffb4';
                     await wait();
                     detail!.innerHTML = '';
                 }
@@ -247,7 +247,7 @@ export class Merge{
                     document.getElementById('indx'+(j))!.innerHTML = 'j'
                 }
 
-                document.getElementById(j.toString())!.style.backgroundColor = '#0099ff';
+                document.getElementById(j.toString())!.style.backgroundColor = '#0099ffb4';
                 await wait();
                 document.getElementById(j.toString())!.style.backgroundColor = '#f39c12';
                 detail!.innerHTML = '';
