@@ -36,7 +36,7 @@ export class Quick{
         let j = high;
     
         document.getElementById(low.toString())!.style.backgroundColor = "red";
-        document.getElementById(j.toString())!.style.backgroundColor = "#0099ff";
+        document.getElementById(j.toString())!.style.backgroundColor = "#0099ffb4";
         if(this.size<19){
             document.getElementById('indx'+(low))!.innerHTML = 'i, pivot';
             document.getElementById('indx'+(j))!.innerHTML = 'j';
@@ -89,7 +89,7 @@ export class Quick{
                     }
                 }
                 j--;
-                document.getElementById(j.toString())!.style.backgroundColor = "#0099ff";
+                document.getElementById(j.toString())!.style.backgroundColor = "#0099ffb4";
                 if(this.size<19){
                     detail!.innerHTML = 'arr[ j ] <= pivot, <i><strong>j</strong> ++</i>';
                     if(j==i){
