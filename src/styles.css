@@ -23,8 +23,26 @@
     color: rgb(14, 13, 13);
     min-height: 100%;
     margin-top: 20px;
-    font-size: 1vw;
+    font-size: 1rem;
     text-align: center;
     display: flex;
     align-items: flex-end;
+}
+
+@media screen and (max-width:1010px) {
+    html{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:610px){
+    html{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:813px) {
+    html{
+        font-size: 12px;
+    }
 }

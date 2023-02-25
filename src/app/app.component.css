@@ -4,14 +4,14 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 10px;
-    padding: 20px 20px;
+    padding: 10px 20px;
     background-color: rgb(12, 14, 34);
 }
 
 
 .navbar h1{
     color: white;
-    font-size: 30px;
+    font-size: 1.5rem;
 }
 
 .container{
@@ -27,9 +27,9 @@
     outline: none;
     color: white;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 1.1rem;
     border-radius: 3px;
-    padding: 10px 20px;
+    padding: .5em .6em;
 }
 
 .btn:disabled{
@@ -50,7 +50,7 @@ input{
 
 .range-control label{
     color: white;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 .gap{
@@ -72,16 +72,16 @@ input{
     border-radius: 4px;
     color: white;
     font-weight: 500;
-    font-size: 18px;
-    padding: 10px 20px;
+    font-size: 1.1rem;
+    padding: 8px 20px;
     cursor: pointer;
 }
 
 .option{
-    position: fixed;
+    position: absolute;
     margin-top: 2px;
     min-width: 150px;
-    top: 85px;
+    top: 64px;
     list-style-type: none;
     transition: all 0.5s linear;
     display: none;
@@ -91,8 +91,8 @@ input{
     background-color: rgb(12, 14, 34);
     color: white;
     font-weight: 500;
-    font-size: 18px;
-    padding: 10px 20px;
+    font-size: 1.1rem;
+    padding: .4em .4em;
     cursor: pointer;
 }
 
@@ -118,6 +118,7 @@ input{
 }
 
 i{
+    font-size: 1.2rem !important;
     transition: all 0.2s linear;
 }
 
@@ -137,85 +138,43 @@ i{
 }
 
 .banner p{
-    font-size: 25px;
+    font-size: 1.5rem;
     text-align: center;
     color: rgb(12, 60, 114);
     padding: 10px 20px;
 }
 
 .details{
-    font-size: 1.7vw;
+    font-size: 1.1rem;
     margin-top: 120px;
 }
 
 @media screen and (max-width:1010px) {
-    .btn{
-        font-size: 15px;
-    }
-
     .range-control input{
         width: 90px;
     }
+}
 
-    .range-control label{
-        font-size: 15px;
-    }
-
-    .drop-down{
-        font-size: 15px;
-    }
-
-    .option li{
-        font-size: 15px;
-    }
-
-    .banner p{
-        font-size: 18px;
+@media screen and (max-width:675px) {
+    .option{
+        top: 95px;
     }
 }
 
-@media screen and (max-width:864px) {
-    .option{
-        top: 130px;
-    }
-}
-
-@media screen and (max-width:610px) {
-    .navbar h1{
-        font-size: 20px;
-    }
-
-    .btn{
-        font-size: 12px;
-    }
-
-    .range-control label{
-        font-size: 12px;
-    }
-
-    .drop-down{
-        font-size: 12px;
-    }
-
-    .option li{
-        font-size: 12px;
-    }
-    .option{
-        top: 120px;
-    }
-
+@media screen and (max-width:458px) {
     .range-control input{
         width: 60px;
     }
-
-    .banner p{
-        font-size: 14px;
-    }
-
 }
 
-@media screen and (max-width:512px){
+@media screen and (max-width:516px){
     .option{
-        top: 160px;
+        top: 140px;
+    }
+}
+
+@media screen and (max-width:256px){
+    .option{
+        top: 180px;
     }
 }
