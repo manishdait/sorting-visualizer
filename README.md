@@ -20,7 +20,7 @@ To install `Sorting Visualizer`, you can follow these steps:
 1. Clone the repository:
 
 ```
-https://github.com/ManishDait/Sorting-Visualizer.git
+git clone https://github.com/ManishDait/Sorting-Visualizer.git
 ```
 Alternatively, you can download the source code as a ZIP file and extract it to a directory of your choice.
 
