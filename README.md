@@ -55,6 +55,8 @@ Navigate to `http://localhost:4200/` to view the application in your web browser
 
 ![Sorting Visualizer Demo](images/demo.gif)
 
+[Check out the deploy website here](https://manishdait.github.io/Sorting-Visualizer/)
+
 
 ## License
 
