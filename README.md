@@ -1,46 +1,65 @@
+# Sorting Visualizer
 
- <img src="images/icon.png"> 
+<img src="images/icon.png">
 
-# SortingVisualizer
+`Sorting Visualizer` is a web application made in `Angular` that visualizes various sorting algorithms in action. It is a great tool for learning how sorting algorithms work.
 
-This is a simple Angular project which help to visualize various sorting Algorithm.
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+## Getting Started
 
+### Prerequisites
 
-## Algorithm you can visualize
+In order to use `Sorting Visualizer`, you will need to have the following installed on your machine:
 
-- Bubble Sort 
-- Selection Sort
-- Insertion Sort
-- Quick Sort
-- Merge Sort
+- `Node.js` and `npm` (Node Package Manager)
+- `Angular CLI`
 
-## Building from source
+### Installation
 
-Clone this repository and run
+To install `Sorting Visualizer`, you can follow these steps:
 
+1. Clone the repository:
+
+```
+https://github.com/ManishDait/Sorting-Visualizer.git
+```
+Alternatively, you can download the source code as a ZIP file and extract it to a directory of your choice.
+
+2. Navigate to the project directory and install the dependencies:
+
+```
+cd Sorting-Visualizer
+```
 ```
 npm install
 ```
-```
-ng build
-```
 
-The build will result in a single `index.html` and other `.js`  file that is made available in the `docs` directory.
+### Usage
 
-
-## Running the application
+To run `Sorting Visualizer`, you can use the following command:
 
 ```
-ng serve --open
+ng serve
 ```
 
-Navigate to http://localhost:4200 to access the application.
+Navigate to `http://localhost:4200/` to view the application in your web browser.
 
-### Deploy Project <br/>
+## Features
 
-[Check out the deploy website here](https://manishdait.github.io/Sorting-Visualizer/)
+`Sorting Visualizer` provides the following features:
 
-<img src="images/img1.png"> <br/>
-<img src="images/img2.png"> <br/>
-<img src="images/img3.png"> <br/>
+- Visualizes various sorting algorithms, including `Bubble Sort`, `Insertion Sort`, `Selection Sort`, `Quick Sort`, and `Merge Sort`
+- Allows users to adjust the size of the array being sorted and the speed at which the visualization runs
+- Highlights the elements of the array being compared and swapped during each step of the sorting process
+
+## Demo
+
+![Sorting Visualizer Demo](images/demo.gif)
+
+
+## License
+
+`Sorting Visualizer` is licensed under the `MIT License`. See the `LICENSE` file for more information.
+
+
+
+
