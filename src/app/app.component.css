@@ -75,6 +75,7 @@ input{
     font-size: 1.1rem;
     padding: 8px 20px;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 .option{
@@ -85,6 +86,7 @@ input{
     list-style-type: none;
     transition: all 0.5s linear;
     display: none;
+    border-radius: 4px;
 }
 
 .option li{
@@ -159,6 +161,24 @@ i{
     }
 }
 
+@media screen and (max-width:817px) {
+    .option{
+        top: 95px;
+    }
+}
+
+@media screen and (max-width:813px) {
+    .option{
+        top: 55px;
+    }
+}
+
+@media screen and (max-width:718px) {
+    .option{
+        top: 85px;
+    }
+}
+
 @media screen and (max-width:675px) {
     .option{
         top: 95px;
@@ -171,9 +191,10 @@ i{
     }
 }
 
-@media screen and (max-width:516px){
+@media screen and (max-width:518px){
     .option{
         top: 140px;
+        left: 10px;
     }
 }
 

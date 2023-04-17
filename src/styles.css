@@ -29,6 +29,17 @@
     align-items: flex-end;
 }
 
+.fa{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding-left:0.5em;
+}
+
+.fa:hover{
+    color: rgb(145, 143, 143);
+}
+
 @media screen and (max-width:1010px) {
     html{
         font-size: 15px;
