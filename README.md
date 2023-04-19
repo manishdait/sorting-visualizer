@@ -1,6 +1,6 @@
 # Sorting Visualizer
 
-<img src="images/icon.png">
+![Logo](images/icon.png)
 
 `Sorting Visualizer` is a web application made in `Angular` that visualizes various sorting algorithms in action. It is a great tool for learning how sorting algorithms work.
 
