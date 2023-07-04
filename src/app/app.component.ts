@@ -5,6 +5,7 @@ import { Bubble } from '../assets/algorithms/Bubble';
 import { Insertion } from '../assets/algorithms/Insertion';
 import { Selection } from '../assets/algorithms/Selection';
 import { currentSpeed } from './array/Timmer';
+import { setMute } from 'src/assets/audio/Sound';
 
 @Component({
   selector: 'app-root',
@@ -83,6 +84,19 @@ export class AppComponent {
 
   async onEnable(){
     this.disable = false;
+  }
+
+  public onMute(){
+    let ele = document.getElementById('mute');
+
+    if (ele!.innerHTML == 'volume_up') {
+      setMute(true);
+      ele!.innerHTML = 'volume_off';
+    } else {
+      ele!.innerHTML = 'volume_up';
+      setMute(false);
+    }
+    
   }
 
 }

@@ -167,6 +167,15 @@ i{
     text-decoration: none;
 }
 
+.mute {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.mute:hover {
+    color: rgb(158, 158, 158);
+}
+
 @media screen and (max-width:1010px) {
     .range-control input{
         width: 90px;
