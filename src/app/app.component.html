@@ -33,7 +33,6 @@
       </div>
       <button class="btn" (click)="onVisualize()" id="visualize" [disabled]="disable">{{ visualMsg }}</button>
     </div>
-    <a href="https://github.com/ManishDait/sorting-visualizer" class="fa fa-github"></a>
 </div>
 </nav>
 
@@ -49,4 +48,8 @@
   <app-array [onSizeChange]="change" #array="array"></app-array>
   <p class="details" id="details"></p>
   <p class="details" id="temp" style="margin-top: 10px; font-size: 1rem;"></p>
+
+  <div class="bottom">
+    <a href="https://github.com/ManishDait/sorting-visualizer">Source Code <i class="fa fa-github"></i></a>
+  </div>
 </div>
